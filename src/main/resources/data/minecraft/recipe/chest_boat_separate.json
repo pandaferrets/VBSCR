@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "boat_block_separate",
+  "ingredients": [
+    "#minecraft:chest_boats"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:chest"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "vbscr",
+  "version": "${version}",
+  "name": "Vehicle/Block Separation Crafting Recipe",
+  "description": "VBSCR allows for crafting boats/rafts with chests and minecarts with blocks back into their respective parts.",
+  "authors": [
+    "ABabby / pandaferrets"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/vbscr",
+    "sources": "https://github.com/pandaferrets/VBSCR",
+    "issues": "https://github.com/pandaferrets/VBSCR/issues"
+  },
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "icon": "assets/vbscr/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ababby.vbscr.VehicleBlockSeparationCraftingRecipe"
+    ]
+  },
+  "mixins": [
+    "vbscr.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.5",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
